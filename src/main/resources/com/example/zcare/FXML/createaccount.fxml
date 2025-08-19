@@ -11,8 +11,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="558.0" prefWidth="430.0" stylesheets="@../Stylesheet/createaccount.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zcare.Controller.CreateAccountController">
+<AnchorPane prefHeight="568.0" prefWidth="450.0" stylesheets="@../Stylesheet/createaccount.css" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zcare.Controller.CreateAccountController">
    <children>
       <ImageView fitHeight="86.0" fitWidth="81.0" layoutX="185.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -39,9 +38,9 @@
             <Font name="Inter 18pt Regular" size="15.0" />
          </font>
       </TextField>
-      <DatePicker layoutX="88.0" layoutY="335.0" prefHeight="34.0" prefWidth="174.0" promptText="Date of Birth" />
+      <DatePicker fx:id="myDatePicker" layoutX="88.0" layoutY="337.0" prefHeight="34.0" prefWidth="174.0" promptText="Date of Birth" />
       <ChoiceBox layoutX="273.0" layoutY="335.0" prefHeight="34.0" prefWidth="90.0" />
-      <PasswordField layoutX="88.0" layoutY="420.0" prefHeight="34.0" prefWidth="276.0" promptText="Password">
+      <PasswordField fx:id="passwordField" layoutX="88.0" layoutY="420.0" prefHeight="34.0" prefWidth="276.0" promptText="Password">
          <font>
             <Font name="Inter 18pt Regular" size="15.0" />
          </font>
@@ -51,9 +50,9 @@
             <Font name="Inter 18pt Regular" size="15.0" />
          </font>
       </TextField>
-      <Button layoutX="87.0" layoutY="484.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="276.0" text="Create Account">
+      <Button fx:id="createAccountBtn" layoutX="88.0" layoutY="465.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="276.0" text="Create Account">
          <font>
-            <Font name="Inter 18pt Regular" size="18.0" />
+            <Font name="Inter 18pt Regular" size="15.0" />
          </font>
       </Button>
       <TextField layoutX="88.0" layoutY="294.0" prefHeight="34.0" prefWidth="276.0" promptText="Username">
@@ -61,5 +60,10 @@
             <Font name="Inter 18pt Regular" size="15.0" />
          </font>
       </TextField>
+      <Button fx:id="backBtn" layoutX="87.0" layoutY="510.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="34.0" prefWidth="276.0" text="Back To Login">
+         <font>
+            <Font name="Inter 18pt Regular" size="15.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
