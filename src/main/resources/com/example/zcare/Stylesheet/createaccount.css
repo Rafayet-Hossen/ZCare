@@ -1,0 +1,45 @@
+.anchor-pane {
+    -fx-background-color: #F0E6F5;
+}
+
+.button {
+    -fx-background-color: #EFBFF2;
+    -fx-text-fill: #720DD9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-border-color: #F4EDF7;
+}
+.button:hover {
+    -fx-background-color: #B856F5;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #720DD9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+.date-picker {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #720DD9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.choice-box {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #720DD9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+#passwordField{
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #720DD9;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px;
+}
+
